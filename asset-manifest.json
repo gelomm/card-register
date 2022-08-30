@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/card-register/static/css/main.1b21ab49.css",
+    "main.js": "/card-register/static/js/main.f3bf1f4d.js",
+    "static/media/bg-main-desktop.png": "/card-register/static/media/bg-main-desktop.806e7aa7b4dbc1d78bc3.png",
+    "index.html": "/card-register/index.html",
+    "static/media/IconComplete.svg": "/card-register/static/media/IconComplete.8fd757c0c5c44b1d597ca411400e046d.svg",
+    "static/media/CardLogo.svg": "/card-register/static/media/CardLogo.8ca9036515954c3f8191559dce9c7bdf.svg",
+    "main.1b21ab49.css.map": "/card-register/static/css/main.1b21ab49.css.map",
+    "main.f3bf1f4d.js.map": "/card-register/static/js/main.f3bf1f4d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b21ab49.css",
+    "static/js/main.f3bf1f4d.js"
+  ]
+}
