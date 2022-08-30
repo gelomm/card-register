@@ -1,0 +1,335 @@
+*{
+  font-family: tahoma;
+  font-size: 18px;
+}
+input {
+  padding: 7px;
+  color: black;
+  border-style: solid;
+  border-radius: 5px;
+  border-color: rgb(187, 170, 170);
+}
+html {
+  /* background-image: linear-gradient(rgb(185, 207, 248), rgb(205, 247, 238)); */
+  background-repeat: no-repeat;
+  transition: .3s ease-in;
+
+  background-image: url('C:\Online-Course\daily-challenge\card-register\public\images\bg-main-desktop.png');
+  max-height: 100%;
+  margin: 0;
+
+}
+
+
+img{
+  height: 190px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+
+  transition: .3s ease-in;
+}
+
+
+.main-cont{
+  display: flex;
+  gap: 20rem;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  margin-top: 6rem;
+  transition: .3s ease-in;
+}
+@font-face{
+  font-family:Space Grotesk ;
+  src: url(https://fonts.google.com/specimen/Space+Grotesk);
+}
+#card-number-root{
+  font-family: Space Grotesk;
+  letter-spacing: 3px;
+  font-size: 25px;
+  color: white;
+  position: absolute;
+
+  margin-top: -4.9rem;
+  margin-left: 2rem;
+  transition: .3s ease-in;
+
+  border: none;
+  background: none;
+}
+
+#name-root{
+  text-transform: uppercase;
+  font-size: small;
+  color: rgb(219, 213, 213);
+  position: absolute;
+  font-family: tahoma;
+  letter-spacing: 1.5px;
+
+  margin-top: -2rem;
+  margin-left: 2rem;
+
+  transition: .3s ease-in;
+
+  border: none;
+  background: none;
+}
+#exp-root{
+  letter-spacing: 1.5px;
+  font-family: Space Grotesk;
+  font-size: small;
+  color: rgb(219, 213, 213); 
+  position: absolute;
+
+  margin-top: -2rem;
+  margin-left: 15rem;
+
+  transition: .3s ease-in;
+
+  border: none;
+  background: none;
+}
+#cvc-root{
+  color: rgb(230, 221, 221);
+  font-size: medium;
+  letter-spacing: 1.5px;
+  font-family: tahoma;
+
+  margin-top: -6.2rem;
+  margin-left: 15rem;
+
+  transition: .3s ease-in;
+}
+
+#Card-logo{
+  height: 35px;
+  position: absolute;
+  box-shadow: none;
+  margin: 1rem;
+}
+.card-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+
+  transition: 0.3s ease;
+}
+
+.back-card-cont{
+  margin-left: 4rem;
+}
+#month, #year{
+  width: 70px;
+}
+#cvc{
+  width: 100px;
+}
+.exp-date-cont{
+  display: flex;
+  gap: 4.5rem;
+}
+.exp-input-cont{
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+.exp-input-cont>div{
+  display: flex;
+  gap: .5rem;
+}
+.form-cont{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-top: 15px;
+}
+
+label{
+  margin-top: -20px;
+}
+input{
+  margin-top: -29px;
+  margin-bottom: 20px;
+}
+.exp-input-cont{
+  margin-top: 10px;
+}
+#submit-btn{
+  margin-top: 15px;
+  border-radius: 10px;
+  border: none;
+  padding: 9px;
+  background-color: rgb(44, 7, 78);
+  color: white;
+  transition: .3s ease;
+}
+#submit-btn:hover{
+  cursor: pointer;
+  background-color: rgb(71, 28, 110);
+}
+#errors{
+  color: red;
+  font-size: small;
+  margin-top: -2.8rem;
+}
+#errors-cvc{
+  color: red;
+  font-size: small;
+  margin-top: -1.3rem;
+}
+.errorColor2{
+  border-color: red;
+  margin-left: 0px;
+  animation: Error .1s alternate-reverse;
+}
+@keyframes Error {
+  from {
+    margin-left: 10px;
+  }to {
+    margin-left: 0px;
+  }
+}
+#complete-cont{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+}
+#complete{
+  border-radius: 50%;
+  height: 70px;
+}
+.grats{
+  letter-spacing: 2px;
+  font-size: xx-large;
+  color: rgb(57, 161, 48);
+}
+.p{
+  color: rgb(124, 127, 131);
+  margin-bottom: 4rem;
+}
+#cont-btn{
+  border-radius: 10px;
+  border: none;
+  padding: 9px;
+  padding-left: 6rem;
+  padding-right: 6rem;
+  background-color: rgb(44, 7, 78);
+  color: white;
+  transition: .3s ease;
+}
+#cont-btn:hover{
+  cursor: pointer;
+  background-color: rgb(71, 28, 110);
+}
+.succ-main{
+  display: flex;
+  flex-direction: column;
+}
+
+
+@media (max-width: 1300px) {
+.main-cont{
+  gap: 8rem;
+}
+
+html{
+  /* background-image: url("C:\Online-Course\daily-challenge\interactive-card-details-form\public\images\bg-main-desktop.png"); */
+  background-position: -100px 0px;
+}
+
+
+}
+
+@media (max-width: 900px) {
+  .main-cont{
+    gap: 4rem;
+    margin-left: 4rem;
+  }
+  html{
+    background-image: url('C:\Online-Course\daily-challenge\card-register\public\images\bg-main-desktop.png');
+    background-position: -170px 0px;
+  }
+  img {
+    height: 160px;
+  }
+  .main-cont{
+    gap: 2rem;
+    margin-right: 4.5rem;
+  }
+
+  #Card-logo{
+    height: 25px;
+    margin: 1rem;
+  }
+  #card-number-root{
+    letter-spacing: 3px;
+    font-size: 20px;
+  
+    margin-top: -4.4rem;
+    margin-left: 1.5rem;
+  }
+  #name-root{
+    margin-top: -1.6rem;
+    margin-left: 1.6rem;
+  }
+  #exp-root{
+    margin-top: -1.6rem;
+    margin-left: 12.6rem;
+  }
+  #cvc-root{
+
+    margin-top: -5.3rem;
+    margin-left: 12.4rem;
+  }
+  }
+
+  @media (max-width: 500px) {
+    html{
+      background-image: url("C:\Online-Course\daily-challenge\card-register\public\images\bg-main-desktop.png");
+      background-position: 0px -660px;
+      background-size: cover;
+    }
+    .main-cont{
+      flex-direction: column;
+    }
+    img{
+
+    }
+    .card-cont{
+      margin-top: -70px;
+      margin-bottom: 8.7rem;
+    }
+    #front-card-cont{
+      margin-top: 5rem;
+      position: absolute;
+    }
+    #back-card-cont{
+      margin-top: -30px;
+    }
+
+    #Card-logo{
+      height: 25px;
+      margin-top: 5.8rem;
+      z-index: 1;
+
+    }
+    #card-number-root{
+      letter-spacing: 3px;
+      font-size: 20px;
+    
+      margin-top: 9.9rem;
+      margin-left: 1.6rem;
+    }
+    #name-root{
+      margin-top: 12.5rem;
+      margin-left: 1.6rem;
+    }
+    #exp-root{
+      margin-top: 12.5rem;
+      margin-left: 13rem;
+    }
+  }
+  
+
